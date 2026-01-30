@@ -35,7 +35,7 @@ const TargetAudience: React.FC = () => {
           <div className="space-y-8 flex flex-col justify-center">
             <div className="relative overflow-hidden group shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1000&auto=format&fit=crop" 
+                src="/images/ia.jpg"
                 alt="Sector Asesoría" 
                 className="w-full aspect-[4/5] object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
               />
@@ -49,8 +49,8 @@ const TargetAudience: React.FC = () => {
           <div className="space-y-8">
             <div className="relative overflow-hidden group shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=1000&auto=format&fit=crop" 
-                alt="Sector Restaurante" 
+                src="/images/webs.jpg" 
+                alt="Webs y landings" 
                 className="w-full aspect-[4/5] object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
               />
               <div className="absolute inset-0 bg-nodus-primary/20 group-hover:bg-transparent transition-all" />
