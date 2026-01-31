@@ -5,11 +5,15 @@ const Hero: React.FC = () => {
     <section className="relative h-screen w-full flex items-center overflow-hidden bg-nodus-primary">
       {/* Background Image */}
       <div
-        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat transition-transform duration-1000 scale-105"
-        style={{
-          backgroundImage: `linear-gradient(rgba(21, 59, 46, 0.5), rgba(21, 59, 46, 0.7)), url('/images/hero.jpg')`,
-        }}
-      />
+  className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+  style={{
+    // 1) Overlay neutro (sin tinte verde) para no “cambiar” tu foto
+    backgroundImage: `linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.45)), url('/images/hero.jpg')`,
+    // 2) Ajusta el encuadre si quieres (sube/baja el foco)
+    backgroundPosition: '50% 50%',
+  }}
+/>
+
 
       {/* Editorial SVG Overlay Lines */}
       <svg
