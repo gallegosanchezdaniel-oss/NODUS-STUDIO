@@ -59,7 +59,7 @@ const Hero: React.FC = () => {
 
           {/* Claim Right - Positioned specifically */}
           <div className="md:col-start-7 md:col-span-4 mt-16 md:mt-0 pl-4 md:pl-8 border-l border-white/10 md:border-none">
-            <span className="text-nodus-accent uppercase tracking-[0.4em] text-[10px] md:text-xs font-bold mb-6 block">
+  
               SOLUCIONES DIGITALES PARA NEGOCIOS REALES
             </span>
             <h2 className="text-4xl md:text-6xl lg:text-7xl font-editorial text-white leading-[1.1] font-medium">
