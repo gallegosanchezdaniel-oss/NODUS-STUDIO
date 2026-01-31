@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat transition-transform duration-1000 scale-105"
         style={{ 
-          backgroundImage: `linear-gradient(rgba(21, 59, 46, 0.5), rgba(21, 59, 46, 0.7)), url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop')` 
+          backgroundImage: `linear-gradient(rgba(21, 59, 46, 0.5), rgba(21, 59, 46, 0.7)), url('/images/hero.jpg')` 
         }}
       />
       
