@@ -62,7 +62,8 @@ const Hero: React.FC = () => {
   
               SOLUCIONES DIGITALES PARA NEGOCIOS REALES
             </span>
-            <h2 className="text-4xl md:text-6xl lg:text-7xl font-editorial text-white leading-[1.1] font-medium">
+            <h2 className="text-3xl md:text-5xl lg:text-6xl font-editorial text-white leading-[1.05] font-medium">
+
               Soluciones digitales <br />
               para negocios reales
             </h2>
