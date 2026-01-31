@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
           
           {/* Logo Left - Huge and Typographic */}
           <div className="md:col-span-4 flex flex-col justify-center">
-            <h1 className="text-8xl md:text-[12rem] lg:text-[16rem] font-editorial text-white leading-none tracking-tighter select-none opacity-95">
+           <h1 className="text-7xl md:text-[10rem] lg:text-[13rem] font-editorial text-white leading-none tracking-tighter select-none opacity-95">
               NODUS
             </h1>
             <div className="mt-6 md:mt-10 max-w-sm">
